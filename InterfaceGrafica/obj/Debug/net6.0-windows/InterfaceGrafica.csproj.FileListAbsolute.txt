@@ -17,3 +17,22 @@ C:\Users\breno\source\repos\InterfaceGrafica\InterfaceGrafica\obj\Debug\net6.0-w
 C:\Users\breno\source\repos\InterfaceGrafica\InterfaceGrafica\obj\Debug\net6.0-windows\ref\InterfaceGrafica.dll
 C:\Users\breno\source\repos\InterfaceGrafica\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.frmRecipes.resources
 C:\Users\breno\source\repos\InterfaceGrafica\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.frmShopList.resources
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\bin\Debug\net6.0-windows\InterfaceGrafica.exe
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\bin\Debug\net6.0-windows\InterfaceGrafica.deps.json
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\bin\Debug\net6.0-windows\InterfaceGrafica.runtimeconfig.json
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\bin\Debug\net6.0-windows\InterfaceGrafica.dll
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\bin\Debug\net6.0-windows\InterfaceGrafica.pdb
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.csproj.AssemblyReference.cache
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.frmRecipes.resources
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.frmShopList.resources
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.home.resources
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.csproj.GenerateResource.cache
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.AssemblyInfoInputs.cache
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.AssemblyInfo.cs
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.csproj.CoreCompileInputs.cache
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.dll
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\refint\InterfaceGrafica.dll
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.pdb
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\InterfaceGrafica.genruntimeconfig.cache
+C:\Users\mari oliveira\Source\Repos\kitchen-manager-frontend\InterfaceGrafica\obj\Debug\net6.0-windows\ref\InterfaceGrafica.dll

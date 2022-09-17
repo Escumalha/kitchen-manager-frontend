@@ -82,5 +82,16 @@ namespace InterfaceGrafica
         {
 
         }
+
+        private void btnEditProd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void home_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

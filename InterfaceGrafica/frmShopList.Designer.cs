@@ -32,6 +32,7 @@
             this.chProdSL = new System.Windows.Forms.ColumnHeader();
             this.chQntSL = new System.Windows.Forms.ColumnHeader();
             this.btnExpt = new System.Windows.Forms.Button();
+            this.lbListaShop = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lvShopList
@@ -60,23 +61,35 @@
             // 
             this.btnExpt.Location = new System.Drawing.Point(441, 376);
             this.btnExpt.Name = "btnExpt";
-            this.btnExpt.Size = new System.Drawing.Size(75, 23);
+            this.btnExpt.Size = new System.Drawing.Size(153, 23);
             this.btnExpt.TabIndex = 1;
-            this.btnExpt.Text = "Exportar";
+            this.btnExpt.Text = "Exportar lista de compras";
             this.btnExpt.UseVisualStyleBackColor = true;
             this.btnExpt.Click += new System.EventHandler(this.btnExpt_Click);
+            // 
+            // lbListaShop
+            // 
+            this.lbListaShop.AutoSize = true;
+            this.lbListaShop.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbListaShop.Location = new System.Drawing.Point(12, 21);
+            this.lbListaShop.Name = "lbListaShop";
+            this.lbListaShop.Size = new System.Drawing.Size(121, 20);
+            this.lbListaShop.TabIndex = 12;
+            this.lbListaShop.Text = "Lista de compras";
             // 
             // frmShopList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 411);
+            this.Controls.Add(this.lbListaShop);
             this.Controls.Add(this.btnExpt);
             this.Controls.Add(this.lvShopList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmShopList";
             this.Text = "frmShopList";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -86,5 +99,6 @@
         private ColumnHeader chProdSL;
         private ColumnHeader chQntSL;
         private Button btnExpt;
+        private Label lbListaShop;
     }
 }

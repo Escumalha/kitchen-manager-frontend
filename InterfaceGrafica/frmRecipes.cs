@@ -46,5 +46,10 @@ namespace InterfaceGrafica
         {
 
         }
+
+        private void btnEditRecipe_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

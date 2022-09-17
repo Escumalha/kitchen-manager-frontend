@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Ingredientes", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Ingredientes", System.Windows.Forms.HorizontalAlignment.Left);
             this.lvRecipe = new System.Windows.Forms.ListView();
             this.chRecipeName = new System.Windows.Forms.ColumnHeader();
             this.chRecipeItens = new System.Windows.Forms.ColumnHeader();
@@ -38,6 +38,8 @@
             this.lbNameRec = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.lbItensRec = new System.Windows.Forms.Label();
+            this.btnEditRecipe = new System.Windows.Forms.Button();
+            this.lbListaReceitas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lvRecipe
@@ -65,17 +67,17 @@
             // 
             // btnAddRec
             // 
-            this.btnAddRec.Location = new System.Drawing.Point(572, 272);
+            this.btnAddRec.Location = new System.Drawing.Point(609, 272);
             this.btnAddRec.Name = "btnAddRec";
-            this.btnAddRec.Size = new System.Drawing.Size(75, 23);
+            this.btnAddRec.Size = new System.Drawing.Size(119, 23);
             this.btnAddRec.TabIndex = 2;
-            this.btnAddRec.Text = "Adicionar";
+            this.btnAddRec.Text = "Adicionar receita";
             this.btnAddRec.UseVisualStyleBackColor = true;
             this.btnAddRec.Click += new System.EventHandler(this.btnAddRec_Click);
             // 
             // btnRmvRec
             // 
-            this.btnRmvRec.Location = new System.Drawing.Point(653, 272);
+            this.btnRmvRec.Location = new System.Drawing.Point(653, 330);
             this.btnRmvRec.Name = "btnRmvRec";
             this.btnRmvRec.Size = new System.Drawing.Size(75, 23);
             this.btnRmvRec.TabIndex = 3;
@@ -102,10 +104,10 @@
             // 
             // listView1
             // 
-            listViewGroup2.Header = "Ingredientes";
-            listViewGroup2.Name = "lvgItens";
+            listViewGroup1.Header = "Ingredientes";
+            listViewGroup1.Name = "lvgItens";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup2});
+            listViewGroup1});
             this.listView1.Location = new System.Drawing.Point(539, 86);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(189, 180);
@@ -123,11 +125,33 @@
             this.lbItensRec.TabIndex = 8;
             this.lbItensRec.Text = "Ingredientes";
             // 
+            // btnEditRecipe
+            // 
+            this.btnEditRecipe.Location = new System.Drawing.Point(653, 301);
+            this.btnEditRecipe.Name = "btnEditRecipe";
+            this.btnEditRecipe.Size = new System.Drawing.Size(75, 23);
+            this.btnEditRecipe.TabIndex = 11;
+            this.btnEditRecipe.Text = "Editar";
+            this.btnEditRecipe.UseVisualStyleBackColor = true;
+            this.btnEditRecipe.Click += new System.EventHandler(this.btnEditRecipe_Click);
+            // 
+            // lbListaReceitas
+            // 
+            this.lbListaReceitas.AutoSize = true;
+            this.lbListaReceitas.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbListaReceitas.Location = new System.Drawing.Point(12, 21);
+            this.lbListaReceitas.Name = "lbListaReceitas";
+            this.lbListaReceitas.Size = new System.Drawing.Size(115, 20);
+            this.lbListaReceitas.TabIndex = 12;
+            this.lbListaReceitas.Text = "Lista de receitas";
+            // 
             // frmRecipes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 411);
+            this.Controls.Add(this.lbListaReceitas);
+            this.Controls.Add(this.btnEditRecipe);
             this.Controls.Add(this.lbItensRec);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.lbNameRec);
@@ -154,5 +178,7 @@
         private Label lbNameRec;
         private ListView listView1;
         private Label lbItensRec;
+        private Button btnEditRecipe;
+        private Label lbListaReceitas;
     }
 }
